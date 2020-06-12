@@ -7,25 +7,25 @@ import LinkedinLogo from '../../../img/iconmonstr-linkedin-1.svg';
 const Footer = () => {
     return (
         <Container>
-            <Row className='justify-content-md-center' md='6'>
-                <Col md='auto'>
+            <Row className='justify-content-center' xs='3' md='3'>
+                <Col xs='auto' md='auto'>
                     <a href='https://github.com/aizemski'>
                         <Image src={GithubLogo} />
                     </a>
                 </Col>
-                <Col md='auto'>
+                <Col xs='auto' md='auto'>
                     <a href='https://www.linkedin.com/in/aizemski/'>
                         <Image src={LinkedinLogo} />
                     </a>
                 </Col>
-                <Col md='auto'>
+                <Col xs='auto' md='auto'>
                     <a href='https://www.instagram.com/aizemski/'>
                         <Image src={InstagramLogo} />
                     </a>
                 </Col>
             </Row>
-            <Row className='justify-content-md-center' md='6'>
-                ©Aleksander Iżemski 2020
+            <Row className='justify-content-center' md='6' xs='3'>
+                ©&nbsp;Aleksander&nbsp;Iżemski&nbsp;2020
             </Row>
         </Container>
     );
