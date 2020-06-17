@@ -1,0 +1,14 @@
+.header {
+    background-color: #0d0d0d;
+    color: #bfbfbf;
+    /* min-height: 125px; */
+}
+.header-nav {
+    color: #bfbfbf;
+    font-size: 24px;
+}
+
+.header-nav:hover {
+    color: #f2f2f2;
+    background-color: #404040;
+}
