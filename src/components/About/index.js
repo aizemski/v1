@@ -11,6 +11,7 @@ const About = () => {
                 <Col>
                     <Image
                         src={Me}
+                        alt='Me'
                         roundedCircle
                         width='256px'
                         height='256px'

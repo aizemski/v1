@@ -1,0 +1,15 @@
+.welcome-container {
+    height: 50vw;
+    background-image: url('../img/background.jpg');
+    background-position: bottom;
+}
+.welcome-h2,
+.welcome-h3 {
+    color: #0d0d0d;
+    text-align: center;
+    font-size: 42px;
+}
+
+.welcome-h3 {
+    font-size: 16px;
+}

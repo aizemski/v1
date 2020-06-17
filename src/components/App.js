@@ -12,8 +12,8 @@ function App() {
     return (
         <>
             <Header />
+            <Welcome />
             <Content>
-                <Welcome />
                 <About />
                 <Work />
                 <Experience />
