@@ -1,27 +1,28 @@
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import '../../../css/header.css';
 const Header = () => {
     return (
-        <Navbar expand='md'>
+        <Navbar expand='md' className='header'>
             <Navbar.Brand href='/'>
-                <div className='black-txt'>AI</div>
+                <div className='header-nav'>AI</div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse
                 id='basic-navbar-nav'
                 className='justify-content-end'
             >
-                <Nav.Link href='#about' className='black-txt'>
+                <Nav.Link href='#about' className='header-nav'>
                     About
                 </Nav.Link>
-                <Nav.Link href='#work' className='black-txt'>
+                <Nav.Link href='#work' className='header-nav'>
                     Work
                 </Nav.Link>
-                <Nav.Link href='#experience' className='black-txt'>
+                <Nav.Link href='#experience' className='header-nav'>
                     Experience
                 </Nav.Link>
-                <Nav.Link href='#contact' className='black-txt'>
+                <Nav.Link href='#contact' className='header-nav'>
                     Contact
                 </Nav.Link>
             </Navbar.Collapse>
