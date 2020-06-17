@@ -11,4 +11,11 @@
 .header-nav:hover {
     color: #f2f2f2;
     background-color: #404040;
+    transform: scale(1.4);
+}
+.header-logo {
+    font-size: 32px;
+}
+.header-logo:hover {
+    background-color: #0d0d0d;
 }

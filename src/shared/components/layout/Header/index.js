@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <Navbar expand='md' className='header'>
             <Navbar.Brand href='/'>
-                <div className='header-nav'>AI</div>
+                <div className='header-nav header-logo'>AI</div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav' />
             <Navbar.Collapse
