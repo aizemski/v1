@@ -1,15 +1,30 @@
 .welcome-container {
-    height: 50vw;
+    height: 900px;
     background-image: url('../img/background.jpg');
     background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.welcome-h2,
-.welcome-h3 {
+.welcome-txt {
     color: #0d0d0d;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
-    font-size: 42px;
+    /* font-size: 42px; */
 }
 
-.welcome-h3 {
-    font-size: 16px;
+.arrow {
+    margin-top: 100px;
+    border: solid #0d0d0d;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 10px;
+}
+.arrow:hover {
+    border-color: #404040;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
