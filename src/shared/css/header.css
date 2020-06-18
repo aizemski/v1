@@ -1,7 +1,8 @@
 .header {
     background-color: #0d0d0d;
-    width: 100%;
+    width: 100vw;
     position: fixed;
+    z-index: 2;
 }
 .header-nav {
     color: #bfbfbf;
@@ -16,4 +17,7 @@
 }
 .scroll-down {
     padding-top: 100px;
+}
+.navbar-toggler {
+    background-color: #bfbfbf;
 }

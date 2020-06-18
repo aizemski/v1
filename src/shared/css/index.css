@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
         'Droid Sans', 'Helvetica Neue', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -7,7 +6,12 @@ body {
     background-color: #f2f2f2;
     color: #0d0d0d;
 }
-
+.row {
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;

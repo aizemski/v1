@@ -10,7 +10,7 @@ import Welcome from './Welcome';
 
 function App() {
     return (
-        <>
+        <React.Fragment>
             <Header />
             <Welcome />
             <Content>
@@ -20,7 +20,7 @@ function App() {
                 <Contact />
             </Content>
             <Footer />
-        </>
+        </React.Fragment>
     );
 }
 
