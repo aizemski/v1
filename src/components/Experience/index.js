@@ -7,13 +7,11 @@ const Experience = () => {
         <Row id='experience'>
             {' '}
             <p className='about-txt'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+                I've been doing computer science staff for about 4 years and I'm
+                eager to learn more in this fast growing industry
             </p>
+            {/* TODO: list technologies i've worked with */}
+            {/* TODO: list companies i've worked for */}
         </Row>
     );
 };

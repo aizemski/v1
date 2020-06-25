@@ -4,7 +4,7 @@ import '../../shared/css/work.css';
 const Work = () => {
     return (
         <Row id='work'>
-            {' '}
+            {/* TODO: Create CV in English */}
             <p className='about-txt'>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
@@ -13,6 +13,7 @@ const Work = () => {
                 survived not only five centuries, but also the leap into
                 electronic typesetting, remaining essentially unchanged.
             </p>
+            {/*TODO: List my projects*/}
         </Row>
     );
 };

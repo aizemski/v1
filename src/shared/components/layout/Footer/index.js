@@ -7,6 +7,7 @@ import LinkedinLogo from '../../../img/iconmonstr-linkedin-1.svg';
 const Footer = () => {
     return (
         <Container>
+            {/* TODO: make it fancy*/}
             <Row className='justify-content-center' xs='3' md='3'>
                 <Col xs='auto' md='auto'>
                     <a href='https://github.com/aizemski'>
