@@ -9,3 +9,13 @@
     margin: auto;
     max-width: 650px;
 }
+#infographic {
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.infographic-txt {
+    margin-top: 15px;
+}

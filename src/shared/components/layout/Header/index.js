@@ -34,7 +34,7 @@ const Header = () => {
 
     return (
         <Navbar expand='md' className='header'>
-            <Navbar.Brand href='/'>
+            <Navbar.Brand href='/v1'>
                 <div className='header-nav header-logo'>AI</div>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls='basic-navbar-nav header-nav-toggel' />
