@@ -5,9 +5,10 @@
     margin-top: 24px;
 }
 .about-txt {
-    font-size: 20px;
+    font-size: 24px;
     margin: auto;
     max-width: 650px;
+    text-align: center;
 }
 #infographic {
     background-color: #0d0d0d;
@@ -15,7 +16,13 @@
     padding: 20px;
     margin-top: 20px;
 }
-
+.about-txt a {
+    text-decoration: none;
+    color: #8c8c8c;
+}
+.about-txt a:hover {
+    color: #bfbfbf;
+}
 .infographic-txt {
     margin-top: 15px;
 }

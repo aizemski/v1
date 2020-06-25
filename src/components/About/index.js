@@ -21,13 +21,16 @@ const About = () => {
             <Row className='justify-content-between about-row'>
                 <Col>
                     <p className='about-txt'>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type and
-                        scrambled it to make a type specimen book. It has
-                        survived not only five centuries, but also the leap into
-                        electronic typesetting, remaining essentially unchanged.
+                        Hello! My name is Aleksander and I'm a programmer with
+                        passion for front end and data science. I'm currently a
+                        third year student at{' '}
+                        <a href='https://www.umk.pl/en/'>
+                            Nicolaus&nbsp;Copernicus&nbsp;University
+                        </a>{' '}
+                        pursuing a engineer degree in{' '}
+                        <a href='https://www.mat.umk.pl/en_GB/web/en/studies'>
+                            Computer&nbsp;Science.
+                        </a>
                     </p>
                 </Col>
             </Row>
