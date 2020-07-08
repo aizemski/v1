@@ -1,0 +1,18 @@
+.footer {
+    background-color: #0d0d0d;
+    color: #f2f2f2;
+}
+.footer-container {
+    padding: 50px;
+}
+.footer-container .row {
+}
+.footer-social path {
+    fill: #f2f2f2;
+}
+.footer-social:hover path {
+    fill: #8c8c8c;
+}
+.footer-rights {
+    margin-top: 20px;
+}

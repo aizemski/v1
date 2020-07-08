@@ -1,34 +1,41 @@
 import React from 'react';
-import { Row, Image, Col, Container } from 'react-bootstrap';
-import InstagramLogo from '../../../img/iconmonstr-instagram-11.svg';
-import GithubLogo from '../../../img/iconmonstr-github-1.svg';
-import LinkedinLogo from '../../../img/iconmonstr-linkedin-1.svg';
+import { Row, Col, Container } from 'react-bootstrap';
+import { ReactComponent as InstagramLogo } from '../../../img/iconmonstr-instagram-11.svg';
+import { ReactComponent as GithubLogo } from '../../../img/iconmonstr-github-1.svg';
+import { ReactComponent as LinkedinLogo } from '../../../img/iconmonstr-linkedin-1.svg';
+import '../../../css/footer.css';
 
 const Footer = () => {
     return (
-        <Container>
-            {/* TODO: make it fancy*/}
-            <Row className='justify-content-center' xs='3' md='3'>
-                <Col xs='auto' md='auto'>
-                    <a href='https://github.com/aizemski'>
-                        <Image src={GithubLogo} />
-                    </a>
-                </Col>
-                <Col xs='auto' md='auto'>
-                    <a href='https://www.linkedin.com/in/aizemski/'>
-                        <Image src={LinkedinLogo} />
-                    </a>
-                </Col>
-                <Col xs='auto' md='auto'>
-                    <a href='https://www.instagram.com/aizemski/'>
-                        <Image src={InstagramLogo} />
-                    </a>
-                </Col>
-            </Row>
-            <Row className='justify-content-center' md='6' xs='3'>
-                ©&nbsp;Aleksander&nbsp;Iżemski&nbsp;2020
-            </Row>
-        </Container>
+        <div className='footer'>
+            <Container className='footer-container'>
+                <Row className='justify-content-center' xs='3' md='3'>
+                    <Col xs='auto' md='auto'>
+                        <a href='https://github.com/aizemski'>
+                            <GithubLogo className='footer-social' />
+                        </a>
+                    </Col>
+                    <Col xs='auto' md='auto'>
+                        <a href='https://www.linkedin.com/in/aizemski/'>
+                            <LinkedinLogo className='footer-social' />
+                        </a>
+                    </Col>
+                    <Col xs='auto' md='auto'>
+                        <a href='https://www.instagram.com/aizemski/'>
+                            <InstagramLogo className='footer-social' />
+                        </a>
+                    </Col>
+                </Row>
+
+                <Row
+                    className='justify-content-center footer-rights'
+                    md='6'
+                    xs='3'
+                >
+                    ©&nbsp;Aleksander&nbsp;Iżemski&nbsp;2020
+                </Row>
+            </Container>
+        </div>
     );
 };
 export default Footer;
