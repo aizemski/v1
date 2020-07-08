@@ -11,4 +11,8 @@
     margin-top: 50px;
     max-width: 192px;
     max-height: 192px;
+    filter: grayscale(100%);
+}
+.technology-icon:hover {
+    filter: none;
 }
