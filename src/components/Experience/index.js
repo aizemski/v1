@@ -1,18 +1,23 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 import '../../shared/css/experience.css';
+import Technologies from './Technologies';
+
 
 const Experience = () => {
     return (
-        <Row id='experience'>
+        <div id='experience'>
             {' '}
+            <h1>Experience</h1>
             <p className='about-txt'>
                 I've been doing computer science staff for about 4 years and I'm
                 eager to learn more in this fast growing industry
             </p>
-            {/* TODO: list technologies i've worked with */}
+            <Row>
+                <Technologies />
+            </Row>
             {/* TODO: list companies i've worked for */}
-        </Row>
+        </div>
     );
 };
 export default Experience;

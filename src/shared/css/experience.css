@@ -1,3 +1,14 @@
 #experience {
     padding-top: 100px;
 }
+#experience h1 {
+    text-align: center;
+}
+.technologies {
+    padding: 50px;
+}
+.technology-icon {
+    margin-top: 50px;
+    max-width: 192px;
+    max-height: 192px;
+}
