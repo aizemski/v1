@@ -2,21 +2,31 @@
     padding-top: 100px;
 }
 #experience h1,
-.technologies-txt {
+.technologies-txt,
+.jobs-txt {
     text-align: center;
 }
-.technologies {
+.technologies,
+.jobs {
+    padding: 0px 50px 50px 50px;
+}
+
+.jobs {
     padding: 50px;
 }
-.technology-icon {
+
+.technology-icon,
+.jobs-logo {
     margin-top: 50px;
-    padding: 10px;
     max-width: 7.5vw;
     max-height: 7.5vw;
+    min-height: 64px !important;
+    min-width: 64px !important;
     filter: grayscale(100%);
     transition: 1.5s ease;
 }
-.technology-icon:hover {
+.technology-icon:hover,
+.jobs-logo:hover {
     filter: none;
 }
 .technologies .col {

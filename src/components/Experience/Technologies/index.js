@@ -21,7 +21,7 @@ const Technologies = () => {
         <Col className='technologies'>
             {/* TODO: list technologies i've worked with */}
             <h2 className='technologies-txt'>Technologies</h2>
-            <Row xs={5}>
+            <Row xs={3} sm={4} lg={5}>
                 <Col>
                     <JS className='technology-icon' />
                 </Col>

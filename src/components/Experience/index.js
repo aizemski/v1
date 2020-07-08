@@ -2,7 +2,7 @@ import React from 'react';
 import { Row } from 'react-bootstrap';
 import '../../shared/css/experience.css';
 import Technologies from './Technologies';
-
+import Jobs from './Jobs';
 
 const Experience = () => {
     return (
@@ -14,9 +14,11 @@ const Experience = () => {
                 eager to learn more in this fast growing industry
             </p>
             <Row>
+                <Jobs />
+            </Row>
+            <Row>
                 <Technologies />
             </Row>
-            {/* TODO: list companies i've worked for */}
         </div>
     );
 };

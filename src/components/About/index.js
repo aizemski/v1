@@ -25,7 +25,7 @@ const About = () => {
                         passion for front end and data science. I'm currently a
                         third year student at{' '}
                         <a href='https://www.umk.pl/en/'>
-                            Nicolaus&nbsp;Copernicus&nbsp;University
+                            Nicolaus Copernicus University
                         </a>{' '}
                         pursuing a engineer degree in{' '}
                         <a href='https://www.mat.umk.pl/en_GB/web/en/studies'>
