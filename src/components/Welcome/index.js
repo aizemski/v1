@@ -16,7 +16,7 @@ const Welcome = (props) => {
                         </Col>
                     </Row>
                     <Row className='align-self-center scrol-down'>
-                        <Col>
+                        <Col className='bounce'> 
                             <a href='#about'>
                                 <i class='arrow down'></i>
                             </a>

@@ -15,8 +15,8 @@ function App() {
             <Welcome />
             <Content>
                 <About />
-                <Work />
             </Content>
+            <Work />
             <Experience />
             <Content>
                 <Contact />

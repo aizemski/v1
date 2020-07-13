@@ -1,8 +1,8 @@
 .welcome-container {
-    height: 1200px;
+    height: 1000px;
     background-image: url('../img/background.jpg');
     background-position: bottom;
-    background-size: cover;
+    background-size: fill;
     background-repeat: no-repeat;
 }
 .welcome-txt {
@@ -26,4 +26,34 @@
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+.bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
 }
