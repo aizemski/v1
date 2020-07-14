@@ -1,5 +1,26 @@
 #work {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 70px;
     display: block;
+}
+
+.cv-container {
+    text-align: center;
+    padding: 50px;
+    color:#f2f2f2;
+    background-image: url('../img/cv.jpg');
+    background-attachment: fixed;
+    height: 200px;
+    margin-bottom: 120px;
+}
+
+.cv-grab, .cv-grab:hover,.cv-grab:focus{
+    margin-top: 10px;
+    color:#f2f2f2;
+    border: solid;
+    background-color: transparent;
+}
+.cv-grab:hover{
+    background-color: #f2f2f250;
+    transform: scale(1.2);
 }

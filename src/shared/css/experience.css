@@ -1,5 +1,6 @@
 #experience {
     padding-top: 100px;
+ 
 }
 #experience h1,
 .technologies-txt,
@@ -12,7 +13,7 @@
 }
 
 .jobs {
-    padding: 50px;
+    padding: 50px;   
 }
 
 .technology-icon,

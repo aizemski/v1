@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
-
 import '../../../css/header.css';
 const Header = () => {
     const navs = document.getElementsByClassName('nav-link');
@@ -23,9 +22,9 @@ const Header = () => {
         navs[3].classList.remove('header-active');
         if (h / d >= contact.top) {
             navs[3].classList.add('header-active');
-        } else if (h / d >= experience.top) {
+        }else if (h / d >= work.top) {
             navs[2].classList.add('header-active');
-        } else if (h / d >= work.top) {
+        }  else if (h / d >= experience.top) {
             navs[1].classList.add('header-active');
         } else if (h / d >= about.top) {
             navs[0].classList.add('header-active');
@@ -45,12 +44,15 @@ const Header = () => {
                 <Nav.Link href='#about' className={'header-nav '}>
                     About
                 </Nav.Link>
-                <Nav.Link href='#work' className={'header-nav '}>
-                    Work
-                </Nav.Link>
                 <Nav.Link href='#experience' className={'header-nav '}>
                     Experience
                 </Nav.Link>
+                <Nav.Link href='#work' className={'header-nav '}>
+                    Work
+                </Nav.Link>
+             
+          
+            
                 <Nav.Link href='#contact' className={'header-nav '}>
                     Contact
                 </Nav.Link>
