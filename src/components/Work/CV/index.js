@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row, Col, Button } from 'react-bootstrap';
-
+import cv from '../../../shared/other/resume2020.pdf';
 const CV = (props) => {
     {
         /*TODO: Grab CV - Polish and English version*/
@@ -10,11 +10,7 @@ const CV = (props) => {
         <Row className='cv-container'>
             <Col>
                 <h3>CHECK OUT MY RÉSUMÉ!</h3>
-                <Button
-                    className='cv-grab'
-                    href='/v1/src/resume2020.pdf'
-                    target='_blank'
-                >
+                <Button className='cv-grab' href={cv} target='_blank'>
                     Grab A Copy
                 </Button>
             </Col>
