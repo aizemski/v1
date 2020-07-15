@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Row, Col, Image, Modal, Button } from 'react-bootstrap';
-
+import Search from '../../../shared/img/loupe.svg';
 const Details = (props) => {
     return (
         <Modal
@@ -62,8 +62,12 @@ const Project = (props) => {
         <>
             <Col className='work-project' onClick={() => setModalShow(true)}>
                 <div className='work-project-item'>
+                    {/*Icons made by "https://www.flaticon.com/authors/freepik" */}
+                    <div className='work-project-item-search'>
+                        <Image src={Search} />
+                    </div>
                     <Image src={image} />
-                    {console.log(props.img)}
+                    <div className='work-project-item-bar'>{props.name}</div>
                 </div>
             </Col>
             <Details
