@@ -12,7 +12,7 @@ const CV = (props) => {
                 <h3>CHECK OUT MY RÉSUMÉ!</h3>
                 <Button
                     className='cv-grab'
-                    href='v1/src/shared/other/resume2020.pdf'
+                    href='/v1/src/resume2020.pdf'
                     target='_blank'
                 >
                     Grab A Copy
