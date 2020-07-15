@@ -15,7 +15,7 @@ const Header = () => {
             .getBoundingClientRect();
         const h = window.innerHeight;
         const d = 4;
-        console.log(h);
+       
         navs[0].classList.remove('header-active');
         navs[1].classList.remove('header-active');
         navs[2].classList.remove('header-active');
