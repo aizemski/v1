@@ -55,14 +55,10 @@
     border: #0d0d0d;
     background-color: #404040;
 }
-
 .work-project-item:hover {
     cursor: pointer;
-    position: relative;
 }
-.work-project-item:hover img {
-    cursor: pointer;
-    position: relative;
+.work-project-item:hover .work-project-item-img {
     opacity: 0.7;
 }
 
@@ -71,8 +67,7 @@
     bottom: 0;
     height: 0;
     transition: 0.5s ease;
-    height: 40px;
-    width: 0;
+    width: calc(100% - 30px);
     background-color: #0d0d0d;
     color: #f2f2f2;
     overflow: hidden;
@@ -95,16 +90,15 @@
 }
 .work-project-item:hover .work-project-item-bar {
     opacity: 1;
-
-    padding-top: 10px;
-    width: 100%;
-    z-index: 2;
+    height: 40px;
+    padding: 10px;
+    z-index: 1;
 }
 .work-project-item:hover .work-project-item-search {
     opacity: 1;
     height: 100%;
     bottom: 0;
-    z-index: 1;
+    z-index: 2;
 }
 /* .work-project-item:hover .work-project-item-search {
     height: 100%;
@@ -123,4 +117,8 @@ a .work-project-popup-link:hover {
     text-decoration: #0d0d0d;
     color: #f2f2f2;
     background-color: #0d0d0d;
+}
+.modal-title {
+    width: 100%;
+    text-align: center;
 }

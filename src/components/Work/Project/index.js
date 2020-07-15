@@ -11,8 +11,12 @@ const Details = (props) => {
         >
             <Modal.Header closeButton>
                 <Modal.Title id='contained-modal-title-vcenter'>
-                    <h3>{props.name}</h3>
-                    <h6> {props.type}</h6>
+                    <div>
+                        <h3>{props.name}</h3>
+                    </div>
+                    <div>
+                        <h6> {props.type}</h6>
+                    </div>
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body className='work-project-popup'>
@@ -66,7 +70,7 @@ const Project = (props) => {
                     <div className='work-project-item-search'>
                         <Image src={Search} />
                     </div>
-                    <Image src={image} />
+                    <Image className='work-project-item-img' src={image} />
                     <div className='work-project-item-bar'>{props.name}</div>
                 </div>
             </Col>
