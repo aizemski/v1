@@ -19,7 +19,7 @@
 .cv-grab:focus {
     margin-top: 10px;
     color: #f2f2f2;
-    border: solid;
+    border: solid 2px;
     background-color: transparent;
 }
 .cv-grab:hover {
@@ -67,7 +67,7 @@
 .work-project-popup-link {
     color: #0d0d0d;
     padding: 10px;
-    border: solid #0d0d0d;
+    border: solid 2px #0d0d0d;
 }
 a .work-project-popup-link:hover {
     text-decoration: #0d0d0d;
