@@ -7,7 +7,7 @@ const About = () => {
     return (
         <>
             <Row id='about' className='justify-content-center about'>
-                <h1>Few words about me</h1>
+                <h1>Few words about&nbsp;me</h1>
             </Row>
             <Row className='justify-content-center about-row'>
                 <Image

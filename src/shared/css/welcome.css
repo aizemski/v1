@@ -2,7 +2,7 @@
     height: 1000px;
     background-image: url('../img/background.jpg');
     background-position: bottom;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .welcome-txt {
@@ -55,5 +55,10 @@
         -ms-transform: translateY(-15px);
         -webkit-transform: translateY(-15px);
         transform: translateY(-15px);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .welcome-container {
+        height: 500px;
     }
 }

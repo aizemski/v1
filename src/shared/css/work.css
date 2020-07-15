@@ -10,6 +10,8 @@
     color: #f2f2f2;
     background-image: url('../img/cv.jpg');
     background-attachment: fixed;
+    background-size: cover;
+
     height: 200px;
     margin-bottom: 120px;
 }
@@ -76,7 +78,7 @@
     opacity: 0;
 }
 .work-project-item-search img {
-    width: 64px;
+    width: 10%;
 }
 .work-project-item-search {
     position: absolute;
@@ -100,11 +102,7 @@
     bottom: 0;
     z-index: 2;
 }
-/* .work-project-item:hover .work-project-item-search {
-    height: 100%;
-    bottom: 0;
-    z-index: 2;
-} */
+
 .work-project-popup-link-or {
     padding: 12px;
 }
