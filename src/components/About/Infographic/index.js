@@ -6,11 +6,11 @@ import Gym from '../../../shared/img/gym.svg';
 const Infographic = (prosp) => {
     const size = '64px';
     return (
-        <div id='infographic' className=' about-row about-txt '>
-            <Row>
+        <div id='infographic' >
+            <Row className=' about-row about-txt '>
                 <p className='about-txt'>SELF PROCLAMATIONS:</p>
             </Row>
-            <Row className='justify-content-between about-row'>
+            <Row className='justify-content-between about-row about-txt  '>
                 <Col className='d-flex flex-column align-items-center'>
                     <Image width={size} src={Data}></Image>
                     {/*https://www.flaticon.com/authors/pixel-perfect*/}

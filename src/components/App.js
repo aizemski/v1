@@ -13,9 +13,7 @@ function App() {
         <React.Fragment>
             <Header />
             <Welcome />
-            <Content>
-                <About />
-            </Content>
+            <About />
             <Experience />
             <Work />
            

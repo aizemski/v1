@@ -11,17 +11,23 @@ const Footer = () => {
             <Container className='footer-container'>
                 <Row className='justify-content-center' xs='3' md='3'>
                     <Col xs='auto' md='auto'>
-                        <a href='https://github.com/aizemski'>
+                        <a href='https://github.com/aizemski' target='_blank'>
                             <GithubLogo className='footer-social' />
                         </a>
                     </Col>
                     <Col xs='auto' md='auto'>
-                        <a href='https://www.linkedin.com/in/aizemski/'>
+                        <a
+                            href='https://www.linkedin.com/in/aizemski/'
+                            target='_blank'
+                        >
                             <LinkedinLogo className='footer-social' />
                         </a>
                     </Col>
                     <Col xs='auto' md='auto'>
-                        <a href='https://www.instagram.com/aizemski/'>
+                        <a
+                            href='https://www.instagram.com/aizemski/'
+                            target='_blank'
+                        >
                             <InstagramLogo className='footer-social' />
                         </a>
                     </Col>

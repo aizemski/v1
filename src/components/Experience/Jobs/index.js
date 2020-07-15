@@ -12,13 +12,13 @@ const Jobs = () => {
                 sm={4}
                 lg={5}
             >
-                <a href='https://chaosgears.com'>
+                <a href='https://chaosgears.com' target='_blank'>
                     <Col className=' d-flex align-items-center justify-content-center'>
                         <Image className='jobs-logo' src={Chaos} />
                     </Col>
                 </a>
 
-                <a href='https://udi.com.pl'>
+                <a href='https://udi.com.pl' target='_blank'>
                     <Col className=' d-flex align-items-center justify-content-center'>
                         <Image className='jobs-logo' src={UDI} />
                     </Col>
