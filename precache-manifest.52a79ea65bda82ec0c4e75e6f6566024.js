@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "74242fda31f160ed3a4c0066b572857a",
+    "revision": "ac61a3021d1a60b22a83f7c16b3e4e70",
     "url": "/v1/index.html"
   },
   {
-    "revision": "1446fa4108b2779b0197",
-    "url": "/v1/static/css/main.0f71b494.chunk.css"
+    "revision": "5c8f12384fbe063c25bf",
+    "url": "/v1/static/css/main.f881c3aa.chunk.css"
   },
   {
-    "revision": "e3ae57622f8c966d839a",
-    "url": "/v1/static/js/2.83161b80.chunk.js"
+    "revision": "0bb8dac0e9380f5f001d",
+    "url": "/v1/static/js/2.6033b09b.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/v1/static/js/2.83161b80.chunk.js.LICENSE.txt"
+    "url": "/v1/static/js/2.6033b09b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1446fa4108b2779b0197",
-    "url": "/v1/static/js/main.8daeb66b.chunk.js"
+    "revision": "5c8f12384fbe063c25bf",
+    "url": "/v1/static/js/main.ae83ed96.chunk.js"
   },
   {
     "revision": "9f44a19df660421c78c2",
@@ -96,8 +96,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/v1/static/media/javascript.7fd50466.svg"
   },
   {
-    "revision": "2e82d079f8bc66df87636c7bb8f8ab7c",
-    "url": "/v1/static/media/linux.2e82d079.svg"
+    "revision": "3a47028ff634183335a7e609df732501",
+    "url": "/v1/static/media/linux.3a47028f.svg"
   },
   {
     "revision": "4afb52b47de1838dad72e978153a7afd",
@@ -120,8 +120,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/v1/static/media/react.c3fbd71b.svg"
   },
   {
+    "revision": "e314cef430d8e2baa7a0c40ebfc3ad9c",
+    "url": "/v1/static/media/resume2020.e314cef4.pdf"
+  },
+  {
     "revision": "d192dc79598b0a98ade7e9a95569f451",
     "url": "/v1/static/media/tensorflow.d192dc79.svg"
+  },
+  {
+    "revision": "ee217b675ca46f87b1aa9a9a3c92a5a2",
+    "url": "/v1/static/media/tutio.ee217b67.png"
   },
   {
     "revision": "389f119bfd38b4eda8f3bc2cd1020bcd",
