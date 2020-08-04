@@ -3,6 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import '../../shared/css/work.css';
 import CV from './CV';
 import Project from './Project';
+import FadeIn from '../../shared/components/FadeIn';
 const Work = () => {
     const Tutio = {
         name: 'Tutio',
@@ -16,23 +17,27 @@ const Work = () => {
     };
 
     return (
-        <Row id='work'>
+        <Row id="work">
             {/* TODO: Create CV in English and [Polish]*/}
             <CV />
-            <h1>WHAT I'VE DONE</h1>
-            <h2>(more coming soon)</h2>
+            <FadeIn>
+                <h1>WHAT I'VE DONE</h1>
+                <h2>(more coming soon)</h2>
+            </FadeIn>
             {/*TODO: List my projects*/}
 
-            <Row className='work-projects' xs={1} md={2} lg={2} xl={3}>
-                <Project
-                    name={Tutio.name}
-                    desc={Tutio.desc}
-                    type={Tutio.type}
-                    gitUrl={Tutio.gitUrl}
-                    url={Tutio.url}
-                    img={Tutio.img}
-                />
-            </Row>
+            <FadeIn>
+                <Row className="work-projects" xs={1} md={2} lg={2} xl={3}>
+                    <Project
+                        name={Tutio.name}
+                        desc={Tutio.desc}
+                        type={Tutio.type}
+                        gitUrl={Tutio.gitUrl}
+                        url={Tutio.url}
+                        img={Tutio.img}
+                    />
+                </Row>
+            </FadeIn>
         </Row>
     );
 };
